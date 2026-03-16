@@ -68,8 +68,6 @@ Tools: Git, GitHub, VS Code
 
 🎓 Master in Technology and Management | CODE University of Applied Sciences, Berlin (Current)
 
-🎓 Master in Cybersecurity (Studies) | IU International University, Berlin (2025)
-
 🎓 Bachelor of Computer Technology (Hons) | University of Computer Studies, Yangon
 
 ## 🏆 Certifications
