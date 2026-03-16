@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en" class="scroll-smooth">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,7 +11,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
-    
+
     <!-- Custom Config -->
     <script>
         tailwind.config = {
@@ -45,30 +46,36 @@
             }
         }
     </script>
-    
+
     <style>
         /* Custom Scrollbar */
         ::-webkit-scrollbar {
             width: 8px;
         }
+
         ::-webkit-scrollbar-track {
-            background: #020617; 
+            background: #020617;
         }
+
         ::-webkit-scrollbar-thumb {
-            background: #1e293b; 
+            background: #1e293b;
             border-radius: 4px;
         }
+
         ::-webkit-scrollbar-thumb:hover {
-            background: #334155; 
+            background: #334155;
         }
 
         /* Card Styles */
         .theme-card {
-            background-color: #0f172a; /* brand-card */
+            background-color: #0f172a;
+            /* brand-card */
             border: 1px solid rgba(255, 255, 255, 0.03);
-            border-radius: 0.75rem; /* rounded-xl */
+            border-radius: 0.75rem;
+            /* rounded-xl */
             transition: all 0.3s ease;
         }
+
         .theme-card:hover {
             transform: translateY(-2px);
             border-color: rgba(56, 189, 248, 0.2);
@@ -86,7 +93,7 @@
             background: #1e293b;
             z-index: 0;
         }
-        
+
         @media (min-width: 768px) {
             .timeline-line::before {
                 left: 50%;
@@ -95,7 +102,9 @@
         }
     </style>
 </head>
-<body class="bg-brand-bg text-brand-text antialiased selection:bg-brand-accent selection:text-brand-bg overflow-x-hidden">
+
+<body
+    class="bg-brand-bg text-brand-text antialiased selection:bg-brand-accent selection:text-brand-bg overflow-x-hidden">
 
     <!-- Top Glow Effect -->
     <div class="fixed inset-0 z-0 pointer-events-none bg-glow"></div>
@@ -112,23 +121,29 @@
                         </span>
                     </a>
                 </div>
-                
+
                 <!-- Center Links -->
                 <div class="hidden md:flex justify-center w-1/2">
                     <div class="flex items-baseline space-x-8">
-                        <a href="#about" class="text-brand-muted hover:text-brand-accent transition-colors px-3 py-2 text-sm font-medium">About</a>
-                        <a href="#projects" class="text-brand-muted hover:text-brand-accent transition-colors px-3 py-2 text-sm font-medium">Projects</a>
-                        <a href="#experience" class="text-brand-muted hover:text-brand-accent transition-colors px-3 py-2 text-sm font-medium">Experience</a>
-                        <a href="#skills" class="text-brand-muted hover:text-brand-accent transition-colors px-3 py-2 text-sm font-medium">Skills</a>
+                        <a href="#about"
+                            class="text-brand-muted hover:text-brand-accent transition-colors px-3 py-2 text-sm font-medium">About</a>
+                        <a href="#projects"
+                            class="text-brand-muted hover:text-brand-accent transition-colors px-3 py-2 text-sm font-medium">Projects</a>
+                        <a href="#experience"
+                            class="text-brand-muted hover:text-brand-accent transition-colors px-3 py-2 text-sm font-medium">Experience</a>
+                        <a href="#skills"
+                            class="text-brand-muted hover:text-brand-accent transition-colors px-3 py-2 text-sm font-medium">Skills</a>
                     </div>
                 </div>
 
                 <!-- Right Socials -->
                 <div class="flex justify-end w-1/4 items-center gap-4">
-                    <a href="https://linkedin.com/in/tntun" target="_blank" class="text-brand-muted hover:text-brand-accent transition-colors text-xl">
+                    <a href="https://linkedin.com/in/tntun" target="_blank"
+                        class="text-brand-muted hover:text-brand-accent transition-colors text-xl">
                         <i class="fab fa-linkedin"></i>
                     </a>
-                    <a href="https://github.com/thetnaingtun-code" target="_blank" class="text-brand-muted hover:text-brand-accent transition-colors text-xl">
+                    <a href="https://github.com/thetnaingtun-code" target="_blank"
+                        class="text-brand-muted hover:text-brand-accent transition-colors text-xl">
                         <i class="fab fa-github"></i>
                     </a>
                 </div>
@@ -142,10 +157,11 @@
         <!-- Hero Section -->
         <section id="about" class="min-h-[85vh] flex flex-col justify-center items-center px-4 py-12">
             <div class="max-w-4xl mx-auto text-center">
-                
+
                 <div class="mb-8 relative inline-block">
                     <div class="absolute inset-0 bg-brand-accent/20 blur-xl rounded-full"></div>
-                    <a href="https://thetnaingtun-code.github.io/about-me" class="relative z-10 h-24 w-24 rounded-full bg-brand-card border border-white/10 flex items-center justify-center text-3xl font-bold text-brand-accent hover:scale-105 transition-transform cursor-pointer">
+                    <a href="https://thetnaingtun-code.github.io/about-me"
+                        class="relative z-10 h-24 w-24 rounded-full bg-brand-card border border-white/10 flex items-center justify-center text-3xl font-bold text-brand-accent hover:scale-105 transition-transform cursor-pointer">
                         TNT
                     </a>
                 </div>
@@ -155,45 +171,59 @@
                     Thet Naing Tun
                 </h1>
                 <div class="h-8 mb-8 text-xl md:text-2xl text-brand-muted font-mono">
-                    I am a <span id="typewriter" class="text-brand-accent"></span><span class="animate-typewriter border-r-2 border-brand-accent ml-1">&nbsp;</span>
+                    I am a <span id="typewriter" class="text-brand-accent"></span><span
+                        class="animate-typewriter border-r-2 border-brand-accent ml-1">&nbsp;</span>
                 </div>
-                
+
                 <p class="max-w-2xl mx-auto text-lg text-brand-muted leading-relaxed mb-10">
-                    Driven technology leader bridging the gap between <strong class="text-white">secure infrastructure</strong> and <strong class="text-white">modern software</strong>. Currently mastering Technology & Management in Berlin. I lead with servant, transformational, and autocratic styles depending on the situation.
+                    Driven technology leader bridging the gap between <strong class="text-white">secure
+                        infrastructure</strong> and <strong class="text-white">modern software</strong>. Currently
+                    mastering Technology & Management in Berlin. I lead with servant, transformational, and autocratic
+                    styles depending on the situation.
                 </p>
 
                 <div class="flex flex-col sm:flex-row gap-4 justify-center mb-16">
-                    <a href="#projects" class="px-8 py-3 rounded-full bg-brand-accent text-brand-bg font-bold hover:bg-white transition-all duration-300">
+                    <a href="#projects"
+                        class="px-8 py-3 rounded-full bg-brand-accent text-brand-bg font-bold hover:bg-white transition-all duration-300">
                         View Journey
                     </a>
-                    <a href="https://linkedin.com/in/tntun" target="_blank" rel="noopener noreferrer" class="px-8 py-3 rounded-full border border-white/10 bg-white/5 hover:bg-white/10 hover:border-brand-accent text-white transition-all duration-300">
+                    <a href="https://linkedin.com/in/tntun" target="_blank" rel="noopener noreferrer"
+                        class="px-8 py-3 rounded-full border border-white/10 bg-white/5 hover:bg-white/10 hover:border-brand-accent text-white transition-all duration-300">
                         Contact Me
                     </a>
                 </div>
 
                 <!-- Technologies & Core Competencies -->
                 <div>
-                    <p class="text-xs font-bold tracking-widest text-brand-muted uppercase mb-6">Technologies & Core Competencies</p>
+                    <p class="text-xs font-bold tracking-widest text-brand-muted uppercase mb-6">Technologies & Core
+                        Competencies</p>
                     <div class="flex flex-wrap justify-center gap-4 opacity-90">
-                        <span class="flex items-center gap-2 px-4 py-2 rounded-lg bg-white/5 border border-white/10 hover:border-brand-accent/50 transition-colors text-sm text-brand-text">
+                        <span
+                            class="flex items-center gap-2 px-4 py-2 rounded-lg bg-white/5 border border-white/10 hover:border-brand-accent/50 transition-colors text-sm text-brand-text">
                             <i class="fab fa-microsoft text-blue-400"></i> O365 & Entra ID
                         </span>
-                        <span class="flex items-center gap-2 px-4 py-2 rounded-lg bg-white/5 border border-white/10 hover:border-brand-accent/50 transition-colors text-sm text-brand-text">
+                        <span
+                            class="flex items-center gap-2 px-4 py-2 rounded-lg bg-white/5 border border-white/10 hover:border-brand-accent/50 transition-colors text-sm text-brand-text">
                             <i class="fas fa-shield-halved text-green-400"></i> NIST & Cybersecurity
                         </span>
-                        <span class="flex items-center gap-2 px-4 py-2 rounded-lg bg-white/5 border border-white/10 hover:border-brand-accent/50 transition-colors text-sm text-brand-text">
+                        <span
+                            class="flex items-center gap-2 px-4 py-2 rounded-lg bg-white/5 border border-white/10 hover:border-brand-accent/50 transition-colors text-sm text-brand-text">
                             <i class="fab fa-php text-purple-400"></i> PHP Laravel
                         </span>
-                        <span class="flex items-center gap-2 px-4 py-2 rounded-lg bg-white/5 border border-white/10 hover:border-brand-accent/50 transition-colors text-sm text-brand-text">
+                        <span
+                            class="flex items-center gap-2 px-4 py-2 rounded-lg bg-white/5 border border-white/10 hover:border-brand-accent/50 transition-colors text-sm text-brand-text">
                             <i class="fab fa-js text-yellow-400"></i> JavaScript
                         </span>
-                        <span class="flex items-center gap-2 px-4 py-2 rounded-lg bg-white/5 border border-white/10 hover:border-brand-accent/50 transition-colors text-sm text-brand-text">
+                        <span
+                            class="flex items-center gap-2 px-4 py-2 rounded-lg bg-white/5 border border-white/10 hover:border-brand-accent/50 transition-colors text-sm text-brand-text">
                             <i class="fas fa-terminal text-gray-300"></i> PowerShell
                         </span>
-                        <span class="flex items-center gap-2 px-4 py-2 rounded-lg bg-white/5 border border-white/10 hover:border-brand-accent/50 transition-colors text-sm text-brand-text">
+                        <span
+                            class="flex items-center gap-2 px-4 py-2 rounded-lg bg-white/5 border border-white/10 hover:border-brand-accent/50 transition-colors text-sm text-brand-text">
                             <i class="fas fa-robot text-pink-400"></i> Generative AI
                         </span>
-                        <span class="flex items-center gap-2 px-4 py-2 rounded-lg bg-white/5 border border-white/10 hover:border-brand-accent/50 transition-colors text-sm text-brand-text">
+                        <span
+                            class="flex items-center gap-2 px-4 py-2 rounded-lg bg-white/5 border border-white/10 hover:border-brand-accent/50 transition-colors text-sm text-brand-text">
                             <i class="fas fa-mobile-screen text-indigo-400"></i> Intune MDM
                         </span>
                     </div>
@@ -204,37 +234,47 @@
         <!-- Featured Projects & Academics Section (2 Columns) -->
         <section id="projects" class="max-w-7xl mx-auto px-4 mb-32">
             <div class="grid lg:grid-cols-2 gap-16">
-                
+
                 <!-- LEFT COLUMN: Featured Projects -->
                 <div>
                     <h2 class="text-2xl font-bold text-white mb-8 flex items-center">
                         <i class="fas fa-code-branch text-brand-accent mr-3"></i> Featured Projects
                     </h2>
                     <div class="space-y-6">
-                        
+
                         <!-- Project: Wayfi -->
                         <div class="theme-card p-6 group">
                             <div class="flex justify-between items-start mb-3">
-                                <h3 class="text-xl font-bold text-white group-hover:text-brand-accent transition-colors">Wayfi Automation</h3>
-                                <span class="text-xs font-mono py-1 px-2 rounded bg-brand-badge text-brand-accent border border-brand-accent/20">Prototype</span>
+                                <h3
+                                    class="text-xl font-bold text-white group-hover:text-brand-accent transition-colors">
+                                    Wayfi Automation</h3>
+                                <span
+                                    class="text-xs font-mono py-1 px-2 rounded bg-brand-badge text-brand-accent border border-brand-accent/20">Prototype</span>
                             </div>
                             <p class="text-brand-muted text-sm mb-5 leading-relaxed">
-                                The automation platform that understands your workflows. Analyzes daily tasks to uncover high-impact automation opportunities.
+                                The automation platform that understands your workflows. Analyzes daily tasks to uncover
+                                high-impact automation opportunities.
                             </p>
                             <div class="flex flex-wrap gap-2">
                                 <span class="text-xs bg-slate-800 px-2 py-1 rounded text-slate-300">Leadership</span>
-                                <span class="text-xs bg-slate-800 px-2 py-1 rounded text-slate-300">Product Strategy</span>
+                                <span class="text-xs bg-slate-800 px-2 py-1 rounded text-slate-300">Product
+                                    Strategy</span>
                             </div>
                         </div>
 
                         <!-- Project: Automated Research Engine -->
                         <div class="theme-card p-6 group">
                             <div class="flex justify-between items-start mb-3">
-                                <h3 class="text-xl font-bold text-white group-hover:text-brand-accent transition-colors">Automated Research Engine</h3>
-                                <span class="text-xs font-mono py-1 px-2 rounded bg-brand-badge text-brand-accent border border-brand-accent/20">In Progress</span>
+                                <h3
+                                    class="text-xl font-bold text-white group-hover:text-brand-accent transition-colors">
+                                    Automated Research Engine</h3>
+                                <span
+                                    class="text-xs font-mono py-1 px-2 rounded bg-brand-badge text-brand-accent border border-brand-accent/20">In
+                                    Progress</span>
                             </div>
                             <p class="text-brand-muted text-sm mb-5 leading-relaxed">
-                                Developing an automated engine applying software development and management principles to streamline data synthesis.
+                                Developing an automated engine applying software development and management principles
+                                to streamline data synthesis.
                             </p>
                             <div class="flex flex-wrap gap-2">
                                 <span class="text-xs bg-slate-800 px-2 py-1 rounded text-slate-300">AI</span>
@@ -245,11 +285,15 @@
                         <!-- Project: News Website -->
                         <div class="theme-card p-6 group">
                             <div class="flex justify-between items-start mb-3">
-                                <h3 class="text-xl font-bold text-white group-hover:text-brand-accent transition-colors">News Website</h3>
-                                <a href="https://github.com/thetnaingtun-code/news" target="_blank" class="text-brand-muted hover:text-white"><i class="fab fa-github text-lg"></i></a>
+                                <h3
+                                    class="text-xl font-bold text-white group-hover:text-brand-accent transition-colors">
+                                    News Website</h3>
+                                <a href="https://github.com/thetnaingtun-code/news" target="_blank"
+                                    class="text-brand-muted hover:text-white"><i class="fab fa-github text-lg"></i></a>
                             </div>
                             <p class="text-brand-muted text-sm mb-5 leading-relaxed">
-                                A dynamic news platform built with PHP Laravel, featuring a responsive frontend and robust backend management.
+                                A dynamic news platform built with PHP Laravel, featuring a responsive frontend and
+                                robust backend management.
                             </p>
                             <div class="flex flex-wrap gap-2">
                                 <span class="text-xs bg-slate-800 px-2 py-1 rounded text-slate-300">Laravel</span>
@@ -261,8 +305,12 @@
                         <!-- Project: Time Tools -->
                         <div class="theme-card p-6 group">
                             <div class="flex justify-between items-start mb-3">
-                                <h3 class="text-xl font-bold text-white group-hover:text-brand-accent transition-colors">Time Tools</h3>
-                                <a href="https://thetnaingtun-code.github.io/time-tools/" target="_blank" class="text-brand-muted hover:text-white"><i class="fas fa-external-link-alt"></i></a>
+                                <h3
+                                    class="text-xl font-bold text-white group-hover:text-brand-accent transition-colors">
+                                    Time Tools</h3>
+                                <a href="https://thetnaingtun-code.github.io/time-tools/" target="_blank"
+                                    class="text-brand-muted hover:text-white"><i
+                                        class="fas fa-external-link-alt"></i></a>
                             </div>
                             <p class="text-brand-muted text-sm mb-5 leading-relaxed">
                                 Utility tools designed for efficient time management and timezone conversion.
@@ -275,8 +323,12 @@
                         <!-- Project: Fireworks -->
                         <div class="theme-card p-6 group">
                             <div class="flex justify-between items-start mb-3">
-                                <h3 class="text-xl font-bold text-white group-hover:text-brand-accent transition-colors">Fireworks Animation</h3>
-                                <a href="https://thetnaingtun-code.github.io/fireworks/" target="_blank" class="text-brand-muted hover:text-white"><i class="fas fa-external-link-alt"></i></a>
+                                <h3
+                                    class="text-xl font-bold text-white group-hover:text-brand-accent transition-colors">
+                                    Fireworks Animation</h3>
+                                <a href="https://thetnaingtun-code.github.io/fireworks/" target="_blank"
+                                    class="text-brand-muted hover:text-white"><i
+                                        class="fas fa-external-link-alt"></i></a>
                             </div>
                             <p class="text-brand-muted text-sm mb-5 leading-relaxed">
                                 An interactive visual animation creating fireworks effects rendered with HTML5 Canvas.
@@ -286,11 +338,15 @@
                             </div>
                         </div>
 
-                         <!-- Project: Notes -->
-                         <div class="theme-card p-6 group">
+                        <!-- Project: Notes -->
+                        <div class="theme-card p-6 group">
                             <div class="flex justify-between items-start mb-3">
-                                <h3 class="text-xl font-bold text-white group-hover:text-brand-accent transition-colors">Cool Note Taker</h3>
-                                <a href="https://thetnaingtun-code.github.io/notes/" target="_blank" class="text-brand-muted hover:text-white"><i class="fas fa-external-link-alt"></i></a>
+                                <h3
+                                    class="text-xl font-bold text-white group-hover:text-brand-accent transition-colors">
+                                    Cool Note Taker</h3>
+                                <a href="https://thetnaingtun-code.github.io/notes/" target="_blank"
+                                    class="text-brand-muted hover:text-white"><i
+                                        class="fas fa-external-link-alt"></i></a>
                             </div>
                             <p class="text-brand-muted text-sm mb-5 leading-relaxed">
                                 Simple and efficient application for organizing thoughts and persisting notes.
@@ -309,35 +365,32 @@
                         <i class="fas fa-graduation-cap text-brand-accent mr-3"></i> Academics
                     </h2>
                     <div class="space-y-6">
-                        
+
                         <!-- Degree 1 -->
                         <div class="theme-card p-6 border-l-4 border-l-brand-accent relative overflow-hidden">
                             <!-- Subtle Gradient Background for active item -->
-                            <div class="absolute inset-0 bg-gradient-to-r from-brand-accent/5 to-transparent pointer-events-none"></div>
-                            
-                            <span class="text-xs text-brand-accent font-mono font-semibold block mb-2">Aug 2025 – Present</span>
+                            <div
+                                class="absolute inset-0 bg-gradient-to-r from-brand-accent/5 to-transparent pointer-events-none">
+                            </div>
+
+                            <span class="text-xs text-brand-accent font-mono font-semibold block mb-2">Aug 2025 –
+                                Present</span>
                             <h3 class="text-lg font-bold text-white mb-1">Master in Technology & Management</h3>
                             <p class="text-brand-muted text-sm">CODE University of Applied Sciences, Berlin</p>
                             <p class="text-slate-500 text-xs mt-3 pt-3 border-t border-white/5">
                                 Focus: Leadership, AI, Strategy, Entrepreneurship
                             </p>
                         </div>
-                        
-                        <!-- Degree 2 -->
-                        <div class="theme-card p-6 border-l-4 border-l-slate-700 hover:border-l-brand-accent/50 transition-colors">
-                            <span class="text-xs text-brand-muted font-mono block mb-2">Apr 2025 – Jul 2025</span>
-                            <h3 class="text-lg font-bold text-white mb-1">Master in Cybersecurity (Studies)</h3>
-                            <p class="text-brand-muted text-sm">IU International University, Berlin</p>
-                        </div>
 
-                        <!-- Degree 3 -->
-                        <div class="theme-card p-6 border-l-4 border-l-slate-700 hover:border-l-brand-accent/50 transition-colors">
+                        <!-- Degree 2 -->
+                        <>div class="theme-card p-6 border-l-4 border-l-slate-700 hover:border-l-brand-accent/50
+                            transition-colors">
                             <span class="text-xs text-brand-muted font-mono block mb-2">Sep 2001 – Aug 2005</span>
                             <h3 class="text-lg font-bold text-white mb-1">Bachelor of Computer Technology</h3>
                             <p class="text-brand-muted text-sm">University of Computer Studies, Yangon</p>
-                        </div>
                     </div>
                 </div>
+            </div>
 
             </div>
         </section>
@@ -345,9 +398,9 @@
         <!-- Experience Timeline -->
         <section id="experience" class="max-w-5xl mx-auto px-4 mb-32">
             <h2 class="text-3xl md:text-4xl font-bold text-white mb-16 text-center">Professional Journey</h2>
-            
+
             <div class="relative timeline-line space-y-12">
-                
+
                 <!-- Item 1 (Biomed) -->
                 <div class="relative z-10">
                     <div class="md:flex items-center justify-between">
@@ -356,7 +409,9 @@
                             <h3 class="text-xl font-bold text-white mt-1">Senior Digital Infrastructure Specialist</h3>
                             <p class="text-brand-muted">Biomed Diagnostics Pte Ltd</p>
                         </div>
-                        <div class="absolute left-[24px] md:left-1/2 -ml-[9px] w-[18px] h-[18px] rounded-full bg-brand-accent border-4 border-brand-bg shadow-[0_0_10px_rgba(56,189,248,0.5)]"></div>
+                        <div
+                            class="absolute left-[24px] md:left-1/2 -ml-[9px] w-[18px] h-[18px] rounded-full bg-brand-accent border-4 border-brand-bg shadow-[0_0_10px_rgba(56,189,248,0.5)]">
+                        </div>
                         <div class="md:w-1/2 md:pl-12 pl-12">
                             <div class="theme-card p-6">
                                 <ul class="list-disc list-outside ml-4 space-y-2 text-sm text-brand-text">
@@ -374,13 +429,15 @@
                 <div class="relative z-10">
                     <div class="md:flex items-center justify-between flex-row-reverse">
                         <div class="md:w-1/2 md:pl-12 mb-4 md:mb-0">
-                             <div class="md:text-left">
+                            <div class="md:text-left">
                                 <span class="text-brand-muted font-mono text-sm">Nov 2014 – Apr 2016</span>
                                 <h3 class="text-xl font-bold text-white mt-1">Senior IT Executive</h3>
                                 <p class="text-brand-muted">Engie Services Singapore</p>
-                             </div>
+                            </div>
                         </div>
-                        <div class="absolute left-[24px] md:left-1/2 -ml-[9px] w-[18px] h-[18px] rounded-full bg-slate-700 border-4 border-brand-bg"></div>
+                        <div
+                            class="absolute left-[24px] md:left-1/2 -ml-[9px] w-[18px] h-[18px] rounded-full bg-slate-700 border-4 border-brand-bg">
+                        </div>
                         <div class="md:w-1/2 md:pr-12 pl-12 md:pl-0">
                             <div class="theme-card p-6">
                                 <ul class="list-disc list-outside ml-4 space-y-2 text-sm text-brand-text">
@@ -401,7 +458,9 @@
                             <h3 class="text-xl font-bold text-white mt-1">IT Development Officer</h3>
                             <p class="text-brand-muted">Keppel FMO Pte Ltd</p>
                         </div>
-                        <div class="absolute left-[24px] md:left-1/2 -ml-[9px] w-[18px] h-[18px] rounded-full bg-slate-700 border-4 border-brand-bg"></div>
+                        <div
+                            class="absolute left-[24px] md:left-1/2 -ml-[9px] w-[18px] h-[18px] rounded-full bg-slate-700 border-4 border-brand-bg">
+                        </div>
                         <div class="md:w-1/2 md:pl-12 pl-12">
                             <div class="theme-card p-6">
                                 <ul class="list-disc list-outside ml-4 space-y-2 text-sm text-brand-text">
@@ -421,18 +480,21 @@
         <section id="skills" class="border-t border-white/5 bg-slate-900/30 py-16">
             <div class="max-w-6xl mx-auto px-4 text-center">
                 <h2 class="text-2xl font-bold text-white mb-10">Certifications & Languages</h2>
-                
+
                 <!-- Certifications -->
                 <div class="flex flex-wrap justify-center gap-6 mb-8">
-                    <div class="flex items-center gap-3 bg-slate-800/50 px-5 py-3 rounded-full border border-slate-700 hover:border-brand-accent transition-colors">
+                    <div
+                        class="flex items-center gap-3 bg-slate-800/50 px-5 py-3 rounded-full border border-slate-700 hover:border-brand-accent transition-colors">
                         <i class="fab fa-google text-white"></i>
                         <span class="font-semibold text-sm text-brand-muted">Google Cybersecurity</span>
                     </div>
-                    <div class="flex items-center gap-3 bg-slate-800/50 px-5 py-3 rounded-full border border-slate-700 hover:border-brand-accent transition-colors">
+                    <div
+                        class="flex items-center gap-3 bg-slate-800/50 px-5 py-3 rounded-full border border-slate-700 hover:border-brand-accent transition-colors">
                         <i class="fas fa-check-circle text-green-500"></i>
                         <span class="font-semibold text-sm text-brand-muted">Qualys Vulnerability Mgmt</span>
                     </div>
-                    <div class="flex items-center gap-3 bg-slate-800/50 px-5 py-3 rounded-full border border-slate-700 hover:border-brand-accent transition-colors">
+                    <div
+                        class="flex items-center gap-3 bg-slate-800/50 px-5 py-3 rounded-full border border-slate-700 hover:border-brand-accent transition-colors">
                         <i class="fas fa-shield-alt text-blue-500"></i>
                         <span class="font-semibold text-sm text-brand-muted">CompTIA CySA+ Prep</span>
                     </div>
@@ -464,7 +526,9 @@
     </main>
 
     <!-- Back to Top Button -->
-    <button id="backToTop" class="fixed bottom-8 right-8 z-50 p-4 rounded-full bg-brand-accent text-brand-bg shadow-[0_0_20px_rgba(56,189,248,0.5)] hover:bg-white transition-all duration-300 opacity-0 invisible translate-y-4 group" aria-label="Back to Top">
+    <button id="backToTop"
+        class="fixed bottom-8 right-8 z-50 p-4 rounded-full bg-brand-accent text-brand-bg shadow-[0_0_20px_rgba(56,189,248,0.5)] hover:bg-white transition-all duration-300 opacity-0 invisible translate-y-4 group"
+        aria-label="Back to Top">
         <i class="fas fa-arrow-up group-hover:-translate-y-1 transition-transform duration-300"></i>
     </button>
 
@@ -479,11 +543,11 @@
 
         function type() {
             const currentPhrase = phrases[phraseIndex];
-            
+
             if (isDeleting) {
                 textElement.textContent = currentPhrase.substring(0, charIndex - 1);
                 charIndex--;
-                typeSpeed = 50; 
+                typeSpeed = 50;
             } else {
                 textElement.textContent = currentPhrase.substring(0, charIndex + 1);
                 charIndex++;
@@ -492,11 +556,11 @@
 
             if (!isDeleting && charIndex === currentPhrase.length) {
                 isDeleting = true;
-                typeSpeed = 2000; 
+                typeSpeed = 2000;
             } else if (isDeleting && charIndex === 0) {
                 isDeleting = false;
                 phraseIndex = (phraseIndex + 1) % phrases.length;
-                typeSpeed = 500; 
+                typeSpeed = 500;
             }
 
             setTimeout(type, typeSpeed);
@@ -525,4 +589,5 @@
         });
     </script>
 </body>
+
 </html>
