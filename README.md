@@ -2,7 +2,7 @@ Hi there, I'm Thet Naing Tun! 👋
 
 Technology Leader in Training | Cybersecurity Specialist | Full-Stack Developer in Training
 
-https://thettun-web.github.io/about-me/
+https://thetnaingtun-code.github.io/about-me/
 
 I am a driven technology professional currently based in Berlin, Germany, pursuing a Master in Technology and Management at CODE University of Applied Sciences.
 
@@ -83,4 +83,4 @@ Tools: Git, GitHub, VS Code
 
 [LinkedIn](https://linkedin.com/in/tntun)
 
-[Portfolio Website](https://github.com/thettun-web)
+[Portfolio Website](https://github.com/thetnaingtun-code)
