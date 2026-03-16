@@ -82,5 +82,4 @@ Tools: Git, GitHub, VS Code
 
 [LinkedIn](https://linkedin.com/in/tntun)
 
-[Portfolio Website](https://github.com/thettun-web)
-
+[Portfolio Website](https://github.com/thetnaingtun-code)
