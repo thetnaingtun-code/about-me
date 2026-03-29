@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Critique Report | Thet Naing Tun</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            50: '#f0f9ff',
+                            100: '#e0f2fe',
+                            200: '#bae6fd',
+                            500: '#0ea5e9',
+                            600: '#0284c7',
+                            700: '#0369a1',
+                            800: '#075985',
+                            900: '#0c4a6e',
+                        },
+                        accent: {
+                            orange: '#f97316',
+                            teal: '#0d9488',
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Inter', 'sans-serif'],
+                        display: ['Outfit', 'sans-serif'],
+                    },
+                }
+            }
+        }
+    </script>
+    <style>
+        body {
+            background-color: #f8fafc;
+            color: #1e293b;
+        }
+        .glass-card {
+            background: rgba(255, 255, 255, 0.8);
+            backdrop-filter: blur(12px);
+            border: 1px solid rgba(255, 255, 255, 0.3);
+            box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.07);
+        }
+        .critique-content h3 {
+            font-family: 'Outfit', sans-serif;
+            font-weight: 700;
+            color: #0c4a6e;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+            font-size: 1.5rem;
+            border-bottom: 2px solid #e2e8f0;
+            padding-bottom: 0.5rem;
+        }
+        .critique-content h4 {
+            font-family: 'Outfit', sans-serif;
+            font-weight: 600;
+            color: #0369a1;
+            margin-top: 1.5rem;
+            margin-bottom: 0.75rem;
+            font-size: 1.125rem;
+            display: flex;
+            align-items: center;
+        }
+        .critique-content h4::before {
+            content: '';
+            display: inline-block;
+            width: 8px;
+            height: 8px;
+            background-color: #f97316;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+        .critique-content p {
+            margin-bottom: 1rem;
+            line-height: 1.7;
+            color: #334155;
+        }
+        .critique-content ul {
+            margin-bottom: 1.5rem;
+            list-style-type: none;
+            padding-left: 0;
+        }
+        .critique-content li {
+            position: relative;
+            padding-left: 1.5rem;
+            margin-bottom: 0.5rem;
+            line-height: 1.6;
+        }
+        .critique-content li::before {
+            content: '→';
+            position: absolute;
+            left: 0;
+            color: #0ea5e9;
+            font-weight: bold;
+        }
+        .critique-content strong {
+            color: #0f172a;
+            font-weight: 600;
+        }
+        .scroll-panel {
+            scrollbar-width: thin;
+            scrollbar-color: #cbd5e1 transparent;
+        }
+        .scroll-panel::-webkit-scrollbar {
+            width: 6px;
+        }
+        .scroll-panel::-webkit-scrollbar-track {
+            background: transparent;
+        }
+        .scroll-panel::-webkit-scrollbar-thumb {
+            background-color: #cbd5e1;
+            border-radius: 20px;
+        }
+        .badge-low { background-color: #fee2e2; color: #991b1b; }
+        .badge-moderate { background-color: #fef3c7; color: #92400e; }
+        .badge-high { background-color: #dcfce7; color: #166534; }
+        
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(10px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+        .animate-fade-in {
+            animation: fadeIn 0.6s ease-out forwards;
+        }
+    </style>
+</head>
+<body class="antialiased text-slate-900">
+
+    <!-- Header -->
+    <header class="sticky top-0 z-50 w-full glass-card border-b border-slate-200">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex justify-between items-center h-20">
+                <div class="flex items-center gap-3">
+                    <div class="w-10 h-10 bg-brand-600 rounded-xl flex items-center justify-center text-white shadow-lg shadow-brand-200">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="9 12h6m-6 4h6m2 5H7a2 2 0 01-2-2V5a2 2 0 012-2h5.586a1 1 0 01.707.293l5.414 5.414a1 1 0 01.293.707V19a2 2 0 01-2 2z" />
+                        </svg>
+                    </div>
+                    <div>
+                        <h1 class="text-xl font-display font-bold text-slate-900 tracking-tight">Resume Critique Report</h1>
+                        <p class="text-xs font-medium text-slate-500 uppercase tracking-widest">Candidate: Thet Naing Tun</p>
+                    </div>
+                </div>
+                <div class="hidden md:block">
+                    <span class="inline-flex items-center px-3 py-1 rounded-full text-xs font-medium bg-slate-100 text-slate-600 border border-slate-200">
+                        Confidential Analysis
+                    </span>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-8 lg:py-12">
+        <div class="grid grid-cols-1 lg:grid-cols-12 gap-8 items-start">
+            
+            <!-- Primary Critique Section -->
+            <div class="lg:col-span-8 animate-fade-in">
+                <div class="bg-white rounded-3xl p-6 md:p-10 shadow-sm border border-slate-100">
+                    <div class="flex items-center gap-2 mb-6">
+                        <span class="h-1 w-12 bg-brand-500 rounded-full"></span>
+                        <span class="text-brand-600 font-bold tracking-widest text-xs uppercase">Comprehensive Review</span>
+                    </div>
+                    
+                    <div class="critique-content">
+                        <h2 class="text-3xl md:text-4xl font-display font-extrabold text-slate-900 mb-6 leading-tight">
+                            Strategic Professional Analysis
+                        </h2>
+                        
+                        <p class="text-lg text-slate-600 mb-8 italic border-l-4 border-slate-200 pl-4">
+                            This report analyzes the candidate’s profile against four specific roles: Full Stack Engineer, AI Engineer, CTO, and Founding Engineer.
+                        </p>
+
+                        <h3>1. Role-Specific Analysis</h3>
+
+                        <div class="space-y-6">
+                            <!-- Full Stack -->
+                            <div class="bg-slate-50 rounded-2xl p-5 border border-slate-100 hover:border-brand-200 transition-colors">
+                                <div class="flex justify-between items-start mb-3">
+                                    <h4 class="!m-0 text-brand-800">Full Stack Engineer</h4>
+                                    <span class="badge-low px-3 py-1 rounded-full text-xs font-bold uppercase tracking-tighter">Alignment: Low</span>
+                                </div>
+                                <p><strong>Strengths:</strong> The candidate mentions "emerging skills" in PHP and JS and possesses a strong foundation in infrastructure and PowerShell scripting. Understanding of IT environments can translate well to DevOps and deployment workflows.</p>
+                                <p><strong>Gaps:</strong> There is a lack of professional experience in software development. The resume does not list specific frameworks (e.g., React, Node.js, Laravel), version control (Git), or a portfolio of applications.</p>
+                            </div>
+
+                            <!-- AI Engineer -->
+                            <div class="bg-slate-50 rounded-2xl p-5 border border-slate-100 hover:border-brand-200 transition-colors">
+                                <div class="flex justify-between items-start mb-3">
+                                    <h4 class="!m-0 text-brand-800">AI Engineer</h4>
+                                    <span class="badge-low px-3 py-1 rounded-full text-xs font-bold uppercase tracking-tighter">Alignment: Low</span>
+                                </div>
+                                <p><strong>Strengths:</strong> The candidate identifies "Generative AI" as a core skill and is pursuing a Master’s in Technology and Management, which likely covers modern tech trends.</p>
+                                <p><strong>Gaps:</strong> The resume lacks technical depth in AI. There is no mention of Python (the primary language for AI), machine learning frameworks, data science libraries, or specific projects involving LLMs, RAG, or fine-tuning.</p>
+                            </div>
+
+                            <!-- CTO -->
+                            <div class="bg-slate-50 rounded-2xl p-5 border border-slate-100 hover:border-brand-200 transition-colors">
+                                <div class="flex justify-between items-start mb-3">
+                                    <h4 class="!m-0 text-brand-800">CTO (Chief Technology Officer)</h4>
+                                    <span class="badge-moderate px-3 py-1 rounded-full text-xs font-bold uppercase tracking-tighter">Alignment: Moderate</span>
+                                </div>
+                                <p><strong>Strengths:</strong> 10+ years of experience in IT infrastructure and cybersecurity. Leadership experience (leading IT support teams) and a Master’s degree that bridges technology with management.</p>
+                                <p><strong>Gaps:</strong> While strong on the "Information Technology" and "Security" side, the resume is thin on "Product Engineering" leadership.</p>
+                            </div>
+
+                            <!-- Founding Engineer -->
+                            <div class="bg-slate-50 rounded-2xl p-5 border border-slate-100 hover:border-brand-200 transition-colors">
+                                <div class="flex justify-between items-start mb-3">
+                                    <h4 class="!m-0 text-brand-800">Founding Engineer</h4>
+                                    <span class="badge-low px-3 py-1 rounded-full text-xs font-bold uppercase tracking-tighter">Alignment: Low-Moderate</span>
+                                </div>
+                                <p><strong>Strengths:</strong> Experience in "setting up IT systems for new sites" suggests a "zero-to-one" mindset. A background in security and infrastructure is an asset for a founding team.</p>
+                                <p><strong>Gaps:</strong> Lacks the documented "heavy-lifting" coding experience required to build a Minimum Viable Product (MVP) from scratch.</p>
+                            </div>
+                        </div>
+
+                        <h3>2. General Strengths & Weaknesses</h3>
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
+                            <div class="bg-emerald-50/50 p-6 rounded-2xl border border-emerald-100">
+                                <h4 class="!mt-0 !text-emerald-800">Core Strengths</h4>
+                                <ul>
+                                    <li><strong>Cybersecurity Expertise:</strong> Deep knowledge of NIST frameworks and Entra ID.</li>
+                                    <li><strong>Infrastructure Mastery:</strong> Extensive experience with Office 365 and Intune.</li>
+                                    <li><strong>Educational Trajectory:</strong> Pursuing a Master’s at CODE University.</li>
+                                    <li><strong>Singapore Market Seniority:</strong> Over a decade of professional experience.</li>
+                                </ul>
+                            </div>
+                            <div class="bg-rose-50/50 p-6 rounded-2xl border border-rose-100">
+                                <h4 class="!mt-0 !text-rose-800">Key Gaps</h4>
+                                <ul>
+                                    <li><strong>Missing Dev Evidence:</strong> Skills in PHP/JS appear theoretical without projects.</li>
+                                    <li><strong>Language & Tools:</strong> Lack of Python, Docker, and Cloud architecture experience.</li>
+                                    <li><strong>Outcome Quantifiers:</strong> Bullets describe duties rather than achievements.</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <h3>3. Actionable Suggestions</h3>
+                        
+                        <div class="space-y-4">
+                            <div class="group p-4 rounded-xl border-l-4 border-brand-500 bg-white shadow-sm hover:shadow-md transition-all">
+                                <h5 class="font-bold text-slate-800 mb-1">For Full Stack & AI Engineering</h5>
+                                <p class="text-sm text-slate-600">Build a portfolio on GitHub, specify technical stacks (React, Node.js, LangChain), and emphasize coding tasks in your IT Development Officer role.</p>
+                            </div>
+                            <div class="group p-4 rounded-xl border-l-4 border-accent-teal bg-white shadow-sm hover:shadow-md transition-all">
+                                <h5 class="font-bold text-slate-800 mb-1">For CTO & Founding Roles</h5>
+                                <p class="text-sm text-slate-600">Emphasize strategic impact, detail leadership scale (team size/budget), and frame security expertise as a "secure-by-default" product advantage.</p>
+                            </div>
+                            <div class="group p-4 rounded-xl border-l-4 border-accent-orange bg-white shadow-sm hover:shadow-md transition-all">
+                                <h5 class="font-bold text-slate-800 mb-1">General Enhancements</h5>
+                                <p class="text-sm text-slate-600">Clarify degree start dates, modernize the skills section layout, and use the "Action Verb + Task + Result" format for all bullets.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Contextual Documents Section -->
+            <div class="lg:col-span-4 space-y-6 lg:sticky lg:top-28 animate-fade-in" style="animation-delay: 0.2s;">
+                
+                <!-- Original Resume Card -->
+                <div class="bg-white rounded-3xl overflow-hidden shadow-sm border border-slate-100 flex flex-col max-h-[400px]">
+                    <div class="px-6 py-4 bg-slate-900 text-white flex justify-between items-center">
+                        <h3 class="font-display font-bold text-sm uppercase tracking-widest">Original Resume</h3>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-slate-400" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M16 7a4 4 0 11-8 0 4 4 0 018 0zM12 14a7 7 0 00-7 7h14a7 7 0 00-7-7z" />
+                        </svg>
+                    </div>
+                    <div class="p-6 overflow-y-auto scroll-panel flex-grow bg-slate-50/50">
+                        <div class="text-xs font-mono text-slate-600 whitespace-pre-wrap leading-relaxed">
+Job Description is Full Stack Engineer, Founding Engineer, CTO.
+https://opal.google/board/blobs/75875030-e865-4a3d-b317-2b4c10d67f9c
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Job Description Card -->
+                <div class="bg-white rounded-3xl overflow-hidden shadow-sm border border-slate-100 flex flex-col max-h-[300px]">
+                    <div class="px-6 py-4 bg-brand-800 text-white flex justify-between items-center">
+                        <h3 class="font-display font-bold text-sm uppercase tracking-widest">Job Description</h3>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-4 w-4 text-brand-300" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 13.255A23.931 23.931 0 0112 15c-3.183 0-6.22-.62-9-1.745M16 6V4a2 2 0 00-2-2h-4a2 2 0 00-2 2v2m4 6h.01M5 20h14a2 2 0 002-2V8a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
+                        </svg>
+                    </div>
+                    <div class="p-6 overflow-y-auto scroll-panel flex-grow bg-slate-50/50">
+                        <div class="text-sm font-medium text-slate-800">
+                            Targeted Roles:
+                        </div>
+                        <ul class="mt-2 space-y-2">
+                            <li class="flex items-center gap-2 text-xs text-slate-600 bg-white p-2 rounded-lg border border-slate-100">
+                                <span class="w-1.5 h-1.5 rounded-full bg-brand-500"></span> Full Stack Engineer
+                            </li>
+                            <li class="flex items-center gap-2 text-xs text-slate-600 bg-white p-2 rounded-lg border border-slate-100">
+                                <span class="w-1.5 h-1.5 rounded-full bg-brand-500"></span> AI Engineer
+                            </li>
+                            <li class="flex items-center gap-2 text-xs text-slate-600 bg-white p-2 rounded-lg border border-slate-100">
+                                <span class="w-1.5 h-1.5 rounded-full bg-brand-500"></span> CTO
+                            </li>
+                            <li class="flex items-center gap-2 text-xs text-slate-600 bg-white p-2 rounded-lg border border-slate-100">
+                                <span class="w-1.5 h-1.5 rounded-full bg-brand-500"></span> Founding Engineer
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Info Note -->
+                <div class="bg-brand-50 rounded-2xl p-4 border border-brand-100">
+                    <div class="flex gap-3">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 text-brand-600 mt-0.5" viewBox="0 0 20 20" fill="currentColor">
+                            <path fill-rule="evenodd" d="M18 10a8 8 0 11-16 0 8 8 0 0116 0zm-7-4a1 1 0 11-2 0 1 1 0 012 0zM9 9a1 1 0 000 2v3a1 1 0 001 1h1a1 1 0 100-2v-3a1 1 0 00-1-1H9z" clip-rule="evenodd" />
+                        </svg>
+                        <p class="text-xs text-brand-800 leading-relaxed">
+                            These documents provide the context for the generated critique. Scroll through them to compare the feedback with original details.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </main>
+
+    <script>
+        // Smooth hover interactions for role cards
+        document.querySelectorAll('.critique-content > div > div').forEach(card => {
+            card.addEventListener('mouseenter', () => {
+                card.classList.add('shadow-md');
+                card.style.transform = 'translateY(-2px)';
+                card.style.transition = 'all 0.3s cubic-bezier(0.4, 0, 0.2, 1)';
+            });
+            card.addEventListener('mouseleave', () => {
+                card.classList.remove('shadow-md');
+                card.style.transform = 'translateY(0)';
+            });
+        });
+    </script>
+</body>
+</html>
