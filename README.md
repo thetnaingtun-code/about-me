@@ -1,83 +1,116 @@
-Hi there, I'm Thet Naing Tun! 👋
+\# Hi there, I'm Thet Naing Tun 👋
 
-Technology Leader in Training | Cybersecurity Specialist | Full-Stack Developer in Training
 
-https://thetnaingtun-code.github.io/about-me/
 
-I am a driven technology professional currently based in Berlin, Germany, pursuing a Master in Technology and Management at CODE University of Applied Sciences.
+\### Aspiring CTO | Full-Stack Developer | AI Engineering Enthusiast
 
-With over 10 years of deep expertise in IT infrastructure and cybersecurity in Singapore, I am now bridging the gap between secure enterprise operations and modern software development. My approach is defined by servant leadership, resilience, and remaining calm in chaos.
 
-## 🚀 About Me
 
-I specialize in building and securing digital ecosystems. My career began in hands-on IT operations and evolved into strategic infrastructure management. I have a proven track record of managing complex Microsoft environments (O365, Entra ID, Intune) and enforcing strict security compliance (NIST CSF).
+Driven technology leader combining over a decade of deep expertise in highly reliable IT infrastructure with modern software engineering and automation. I build secure, efficient, and innovative systems, transitioning from scaling corporate infrastructure to building full-stack applications.
 
-Currently, I am expanding my horizons into Software Engineering and Generative AI, applying my infrastructure background to build robust, secure, and scalable applications.
 
-🔭 I’m currently working on: An Automated Research Engine that leverages AI to streamline data synthesis.
 
-🌱 I’m currently learning: Advanced Software Technologies, Strategic Management, and Entrepreneurship.
+Currently based in Berlin, Germany 🇩🇪, pursuing my Master's at \*\*CODE University of Applied Sciences\*\*.
 
-💬 Ask me about: Cybersecurity, Microsoft 365 Administration, Incident Response, and Servant Leadership.
 
-⚡ Fun fact: I thrive in high-pressure environments and believe that kindness is a crucial leadership skill.
 
-## 🛠️ Tech Stack \& Skills
+\---
 
-### Infrastructure \& Security
 
-* Cloud \& Identity: Microsoft 365, Entra ID (Azure AD), Exchange Online
-* Endpoint Management: Microsoft Intune (MDM/MAM)
-* Security Frameworks: NIST CSF, BSI Grundschutz, GDPR Compliance
-* Operations: Incident Response, Vulnerability Management (Qualys), PowerShell Scripting
-* Network: Firewalls, Windows Server Administration, Active Directory
 
-### Software Development
+\### 🚀 Current Focus \& Academics
 
-Languages: PHP, JavaScript, HTML5, CSS3
 
-Frameworks: Laravel, Tailwind CSS
 
-Tools: Git, GitHub, VS Code
+I am currently enrolled in the \*\*Master of Science in Technology and Management\*\* at CODE University, blending engineering execution with startup strategy. 
 
-## 💼 Professional Experience
+\* \*\*Recent Achievements:\*\*
 
-### Senior Digital Infrastructure Specialist @ Biomed Diagnostics Pte Ltd (Singapore)
+&#x20; \* 🏆 \*\*Software Engineering Technologies:\*\* (Grade 1.7) - Focus on APIs, Tech Debt, and System Scaling.
 
-(Oct 2022 – Feb 2025)
+&#x20; \* 🏆 \*\*Entrepreneurial Leadership:\*\* (Grade 1.7) - Focus on Product Management, Strategy, and Lean Startup.
 
-* Managed security incidents and recovery operations.
-* Administered O365, Entra ID, and improved Microsoft Secure Score.
-* Deployed mobile security via Microsoft Intune.
+&#x20; \* 🛠️ \*\*Current Projects:\*\* Building an AI-powered SaaS platform using PHP Laravel and Generative AI, and developing an Automated Research Engine prototype.
 
-### Senior IT Executive @ Engie Services Singapore
 
-(Nov 2014 – Apr 2016)
 
-* Led IT support teams for island-wide site offices.
-* Managed L2/L3 infrastructure support (Network, Servers, Firewalls).
+\---
 
-### IT Development Officer @ Keppel FMO Pte Ltd
 
-(Feb 2008 – Nov 2016)
 
-* Set up IT systems for new sites across Singapore.
-* Ensured infrastructure efficiency and security.
+\### 🏆 Certifications \& Training
 
-## 📚 Education
 
-🎓 Master in Technology and Management | CODE University of Applied Sciences, Berlin (Current)
 
-🎓 Bachelor of Computer Technology (Hons) | University of Computer Studies, Yangon
+\* 🏅 \*\*\[Microsoft Achievements \& Training](https://learn.microsoft.com/en-gb/users/thetnaingtun/achievements)\*\* - Active learner on Microsoft Learn.
 
-## 🏆 Certifications
+\* 🛡️ \*\*Google Cybersecurity Certificate\*\* - Google
 
-* Google Cybersecurity Certificate
-* Qualys Certificate in Vulnerability Management
-* CompTIA CySA+ Prep
+\* 🔍 \*\*Certificate in Vulnerability Management\*\* - Qualys
 
-## 📫 Connect with Me
+\* 🔐 \*\*CompTIA CySA+ (CS0-002) Cert Prep\*\* - LinkedIn Learning
 
-[LinkedIn](https://linkedin.com/in/tntun)
 
-[Portfolio Website](https://github.com/thetnaingtun-code)
+
+\---
+
+
+
+\### 💻 Tech Stack \& Tools
+
+
+
+\*\*Software Engineering:\*\*
+
+!\[PHP](https://img.shields.io/badge/php-%23777BB4.svg?style=for-the-badge\&logo=php\&logoColor=white)
+
+!\[Laravel](https://img.shields.io/badge/laravel-%23FF2D20.svg?style=for-the-badge\&logo=laravel\&logoColor=white)
+
+!\[JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge\&logo=javascript\&logoColor=%23F7DF1E)
+
+!\[React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge\&logo=react\&logoColor=%2361DAFB)
+
+!\[Vue.js](https://img.shields.io/badge/vuejs-%2335495e.svg?style=for-the-badge\&logo=vuedotjs\&logoColor=%234FC08D)
+
+!\[TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge\&logo=tailwind-css\&logoColor=white)
+
+
+
+\*\*Infrastructure \& Cloud:\*\*
+
+!\[Microsoft](https://img.shields.io/badge/Microsoft\_365-0078D4?style=for-the-badge\&logo=microsoft-office\&logoColor=white)
+
+!\[Azure](https://img.shields.io/badge/azure-%230072C6.svg?style=for-the-badge\&logo=microsoftazure\&logoColor=white)
+
+!\[Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge\&logo=postgresql\&logoColor=white)
+
+!\[Powershell](https://img.shields.io/badge/PowerShell-%235391FE.svg?style=for-the-badge\&logo=powershell\&logoColor=white)
+
+
+
+\*\*Methodologies:\*\*
+
+\* System Architecture \& API Design
+
+\* Generative AI API Integration (LLMs)
+
+\* Agile \& Lean Startup Methodology
+
+\* Enterprise Cybersecurity \& IAM
+
+
+
+\---
+
+
+
+\### 📫 Let's Connect
+
+
+
+\- 💼 Connect with me on \[LinkedIn](https://linkedin.com/in/tntun)
+
+\- 🌐 View my \[Portfolio Website](https://thetnaingtun-code.github.io/about-me)
+
+\- ✉️ Reach out via email: tnttun@gmail.com
+
